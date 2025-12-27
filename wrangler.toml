@@ -4,11 +4,14 @@
 name = "everything-applied-ds"
 compatibility_date = "2024-01-01"
 
+# Pages-specific configuration
+pages_build_output_dir = "build"
+
 # IMPORTANT: This is a static site. Use Cloudflare Pages, not Workers.
 # 
 # Deployment options:
-# 1. Via CLI: npx wrangler pages deploy build
-# 2. Via GitHub: Connect repo in Cloudflare dashboard (recommended)
+# 1. Via CLI: npx wrangler pages deploy build --project-name=everything-applied-ds
+# 2. Via GitHub: Connect repo in Cloudflare dashboard (recommended) - no deploy command needed
 # 3. Via dashboard: Upload build directory manually
 #
 # DO NOT use: wrangler deploy (that's for Workers, not Pages)
