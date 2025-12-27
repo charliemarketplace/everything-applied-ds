@@ -1,5 +1,7 @@
 # Applied Data Science Learning Platform
 
+Hosted at: https://everything-applied-ds.pages.dev/ 
+
 > 🎮 **Interactive tutorials for practical data science concepts**
 
 Learn applied data science through 70+ interactive tutorials covering statistical models, optimization, machine learning, and more — using sports betting as a rich applied use case to ground abstract concepts in real-world scenarios.
