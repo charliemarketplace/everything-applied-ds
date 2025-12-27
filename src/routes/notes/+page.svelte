@@ -178,6 +178,7 @@
               </div>
               <button
                 onclick={() => deleteNote(note.id)}
+                aria-label="Delete note"
                 class="p-2 text-obsidian-500 hover:text-crimson-400 opacity-0 group-hover:opacity-100 transition-all"
               >
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

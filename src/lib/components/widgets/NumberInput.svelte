@@ -9,6 +9,8 @@
     precision = 2
   } = $props();
 
+  let inputId = `number-input-${crypto.randomUUID()}`;
+
   function increment() {
     value = Math.min(max, Math.round((value + step) * 1000) / 1000);
   }
@@ -20,7 +22,7 @@
 
 <div class="space-y-2">
   {#if label}
-    <label class="widget-label">
+    <label for={inputId} class="widget-label">
       <span>{label}</span>
     </label>
   {/if}
@@ -30,11 +32,13 @@
       onclick={decrement}
       class="px-3 py-2 bg-obsidian-800 border border-obsidian-600 rounded-l-lg text-obsidian-300 
              hover:bg-obsidian-700 hover:text-amber-350 transition-colors"
+      aria-label="Decrease value"
     >
       −
     </button>
     <div class="flex-1 relative">
       <input
+        id={inputId}
         type="number"
         bind:value
         {min}
@@ -52,6 +56,7 @@
       onclick={increment}
       class="px-3 py-2 bg-obsidian-800 border border-obsidian-600 rounded-r-lg text-obsidian-300 
              hover:bg-obsidian-700 hover:text-amber-350 transition-colors"
+      aria-label="Increase value"
     >
       +
     </button>

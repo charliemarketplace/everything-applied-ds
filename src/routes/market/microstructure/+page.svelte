@@ -42,12 +42,12 @@
   const priceImpact = $derived((100 / liquidity) * 1000); // Basis points per $1K bet
 
   // Market structure elements
-  const elements = [
+  const elements = $derived([
     { name: 'Bid-Ask Spread', desc: 'Gap between buy/sell prices', metric: `${spreadWidth} pts` },
     { name: 'Depth', desc: 'Total $ at best prices', metric: `$${(liquidity / 1000).toFixed(0)}K` },
     { name: 'Sharp Flow', desc: '% of volume from informed traders', metric: `${sharpFlow}%` },
     { name: 'Price Impact', desc: 'Move per $ bet', metric: `${priceImpact.toFixed(2)} bp/$K` }
-  ];
+  ]);
 </script>
 
 <svelte:head>

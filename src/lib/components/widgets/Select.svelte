@@ -10,17 +10,20 @@
     label = '',
     placeholder = 'Select...'
   } = $props();
+
+  let selectId = `select-${crypto.randomUUID()}`;
 </script>
 
 <div class="space-y-2">
   {#if label}
-    <label class="widget-label">
+    <label for={selectId} class="widget-label">
       <span>{label}</span>
     </label>
   {/if}
   
   <div class="relative">
     <select
+      id={selectId}
       bind:value
       class="w-full px-4 py-3 bg-obsidian-800/50 border border-obsidian-600 rounded-lg
              text-obsidian-100 appearance-none cursor-pointer

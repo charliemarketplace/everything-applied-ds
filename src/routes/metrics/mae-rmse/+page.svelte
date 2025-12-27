@@ -64,11 +64,11 @@
   });
 
   // Metric comparison
-  const metrics = [
+  const metrics = $derived([
     { name: 'MAE', formula: 'Mean(|error|)', value: mae(), penalizes: 'Linear penalty', use: 'Robust to outliers' },
     { name: 'MSE', formula: 'Mean(error²)', value: mse(), penalizes: 'Squared penalty', use: 'Differentiable' },
     { name: 'RMSE', formula: '√MSE', value: rmse(), penalizes: 'Same units as target', use: 'Interpretable' }
-  ];
+  ]);
 </script>
 
 <svelte:head>

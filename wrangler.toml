@@ -1,0 +1,15 @@
+# Cloudflare Pages configuration for static site deployment
+# This site uses @sveltejs/adapter-static and outputs to the 'build' directory
+
+name = "everything-applied-ds"
+compatibility_date = "2024-01-01"
+
+# IMPORTANT: This is a static site. Use Cloudflare Pages, not Workers.
+# 
+# Deployment options:
+# 1. Via CLI: npx wrangler pages deploy build
+# 2. Via GitHub: Connect repo in Cloudflare dashboard (recommended)
+# 3. Via dashboard: Upload build directory manually
+#
+# DO NOT use: wrangler deploy (that's for Workers, not Pages)
+

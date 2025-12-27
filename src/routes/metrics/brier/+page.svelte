@@ -129,8 +129,8 @@
             min={0} max={1} step={0.05} 
             label="Predicted Probability" 
           />
-          <div>
-            <label class="text-sm text-obsidian-300 mb-2 block">Actual Outcome</label>
+          <fieldset>
+            <legend class="text-sm text-obsidian-300 mb-2 block">Actual Outcome</legend>
             <div class="grid grid-cols-2 gap-2">
               <button
                 class="px-4 py-2 rounded-lg text-sm font-mono transition-colors {actualOutcome === 0 ? 'bg-crimson-500 text-white' : 'bg-obsidian-800 text-obsidian-300 hover:bg-obsidian-700'}"
@@ -145,7 +145,7 @@
                 1 (Yes)
               </button>
             </div>
-          </div>
+          </fieldset>
         </div>
       </div>
 
