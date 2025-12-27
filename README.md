@@ -1,8 +1,8 @@
-# Pricing Models & Frameworks Tutorial Site
+# Applied Data Science Learning Platform
 
-> 🎮 **Interactive learning platform for sports betting pricing models**
+> 🎮 **Interactive tutorials for practical data science concepts**
 
-A comprehensive SvelteKit tutorial site covering 70+ pricing models and frameworks with interactive demos, synthetic data simulations, and hands-on calculators.
+Learn applied data science through 70+ interactive tutorials covering statistical models, optimization, machine learning, and more — using sports betting as a rich applied use case to ground abstract concepts in real-world scenarios.
 
 ## 🚀 Quick Start
 
@@ -18,12 +18,23 @@ npm run dev
 
 ## 📚 What's Included
 
-- **70+ Topics** organized into 13 categories
+- **70+ Concepts** organized into 13 categories
 - **Interactive Demos** with real-time parameter adjustment
-- **Synthetic Data** generators for all model types
-- **Progress Tracking** to monitor your learning
-- **Notes System** to capture insights
+- **Synthetic Data** generators for hands-on experimentation
+- **Progress Tracking** saved in your browser
+- **Notes System** to capture insights as you learn
 - **R Code Examples** for each concept
+
+## 🎯 Why Sports Betting as a Use Case?
+
+Sports betting provides an ideal sandbox for learning applied data science:
+- **Probability & Statistics** — odds, expected value, Bayesian updating
+- **Optimization** — Kelly criterion, portfolio allocation
+- **Machine Learning** — predictions, calibration, feature engineering
+- **Risk Management** — VaR, correlation, stress testing
+- **Econometrics** — causal inference, A/B testing, panel data
+
+The concepts transfer directly to finance, operations research, and decision science.
 
 ## 🗂️ Project Structure
 
@@ -31,34 +42,30 @@ npm run dev
 src/
 ├── routes/              # Page routes
 │   ├── models/          # Core statistical models
-│   ├── pricing/         # Pricing frameworks
+│   ├── pricing/         # Decision frameworks
 │   ├── risk/            # Risk management
-│   ├── sports/          # Sports-specific models
+│   ├── ml/              # Machine learning
 │   └── ...
 ├── lib/
 │   ├── components/      # Reusable UI components
 │   ├── data/            # Navigation & config
 │   └── utils/           # Synthetic data utilities
-docs/
-├── PROGRESS.md          # Development progress
-├── CHECKPOINTS.md       # Milestone tracking
-└── CONTENT_GUIDE.md     # Content creation guide
 ```
 
 ## 📖 Learning Path
 
-1. **Foundations** - Expected Value, Implied Probability
-2. **Core Models** - Bayesian, Monte Carlo, Regression
-3. **Pricing** - Kelly Criterion, Market Making
+1. **Foundations** - Expected Value, Implied Probability, Regression
+2. **Core Models** - Bayesian Updating, Monte Carlo, Time Series
+3. **Decision Making** - Kelly Criterion, Optimization, Game Theory
 4. **Risk** - Correlation, VaR, Stress Testing
-5. **Advanced** - ML, Game Theory, Optimization
+5. **Advanced** - ML Calibration, Causal Inference, MLOps
 
 ## 🛠️ Tech Stack
 
 - **SvelteKit 2** with TypeScript
 - **Tailwind CSS** for styling
 - **Chart.js** for visualizations
-- **Custom Synthetic Data** generators
+- **Browser Storage** for notes & progress
 
 ---
 

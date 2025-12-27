@@ -3,23 +3,23 @@
   import ProgressRing from '$lib/components/ProgressRing.svelte';
 
   const stats = [
-    { label: 'Models Covered', value: '70+', icon: '📊' },
+    { label: 'Concepts Covered', value: '70+', icon: '📊' },
     { label: 'Interactive Demos', value: '50+', icon: '🎮' },
-    { label: 'Practice Problems', value: '100+', icon: '✏️' },
+    { label: 'R Code Examples', value: '70+', icon: '📝' },
     { label: 'Categories', value: '13', icon: '📁' }
   ];
 
   const featuredTopics = [
     {
       title: 'Bayesian Updating',
-      description: 'Real-time line adjustments as information arrives',
+      description: 'Update beliefs with new data in real-time',
       path: '/models/bayesian',
       color: 'from-blue-500 to-purple-600',
       icon: '📊'
     },
     {
       title: 'Kelly Criterion',
-      description: 'Optimal bet sizing and bankroll management',
+      description: 'Optimal resource allocation under uncertainty',
       path: '/pricing/kelly',
       color: 'from-emerald-500 to-teal-600',
       icon: '📐'
@@ -33,16 +33,16 @@
     },
     {
       title: 'Expected Value',
-      description: 'Fundamental to all betting pricing',
+      description: 'Foundation of decision-making under uncertainty',
       path: '/pricing/expected-value',
       color: 'from-amber-400 to-orange-500',
-      icon: '💰'
+      icon: '💡'
     }
   ];
 </script>
 
 <svelte:head>
-  <title>Pricing Models & Frameworks | Interactive Tutorial</title>
+  <title>Applied Data Science | Interactive Learning Platform</title>
 </svelte:head>
 
 <div class="max-w-7xl mx-auto space-y-12">
@@ -54,18 +54,32 @@
     <div class="relative z-10">
       <div class="flex items-center gap-3 mb-6">
         <span class="badge-amber">Interactive Learning</span>
-        <span class="badge-jade">70+ Models</span>
+        <span class="badge-jade">70+ Concepts</span>
       </div>
 
       <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-obsidian-50 mb-4">
-        Pricing Models &
-        <span class="text-gradient">Frameworks</span>
+        Applied
+        <span class="text-gradient">Data Science</span>
       </h1>
       
-      <p class="text-lg md:text-xl text-obsidian-300 max-w-2xl mb-8">
-        Master sports betting pricing with interactive tutorials, synthetic data simulations, 
-        and hands-on calculators. From Bayesian inference to Kelly criterion.
+      <p class="text-lg md:text-xl text-obsidian-300 max-w-2xl mb-6">
+        Learn practical data science through interactive tutorials, synthetic data simulations, 
+        and hands-on calculators. From Bayesian inference to optimization — with sports betting 
+        as a rich applied use case.
       </p>
+
+      <!-- Browser features callout -->
+      <div class="flex flex-wrap items-center gap-4 mb-8 text-sm text-obsidian-400">
+        <span class="flex items-center gap-2">
+          <span class="text-jade-400">✓</span> Take notes as you learn
+        </span>
+        <span class="flex items-center gap-2">
+          <span class="text-jade-400">✓</span> Track your progress
+        </span>
+        <span class="flex items-center gap-2">
+          <span class="text-jade-400">✓</span> All saved in your browser
+        </span>
+      </div>
 
       <div class="flex flex-wrap gap-4">
         <a href="/quickstart" class="btn-primary">
