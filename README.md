@@ -66,37 +66,29 @@ docs/
 
 ## Comprehensive Pricing Models & Frameworks Study Guide
 
-Given the new context (skill-based, product-focused team, feature development), here's what you should know:
-
 ---
 
 ## CORE STATISTICAL/PROBABILISTIC MODELS
 
 ### 1. **Bayesian Updating Models**
 Prior beliefs updated with new data. Used for: real-time line adjustments as information arrives (injury news, weather, sharp money).
-- **Your hook:** "Used Bayesian inference for blockchain state prediction at Flipside"
 
 ### 2. **Monte Carlo Simulation**
 Random sampling to model uncertainty and estimate probability distributions. Used for: stress testing pricing under different scenarios, estimating win rate distributions.
-- **Your hook:** "Built Monte Carlo sims for DeFi protocol risk modeling"
 
 ### 3. **Regression Models (Linear, Logistic, Poisson)**
 - **Linear:** Continuous outcomes (total points scored)
 - **Logistic:** Binary outcomes (over/under hit rate)
 - **Poisson:** Count data (goals, touchdowns, strikeouts)
-- **Your hook:** Econometrics background from JHU
 
 ### 4. **Time Series Models (ARIMA, Exponential Smoothing)**
 Forecasting based on temporal patterns. Used for: player performance trends, seasonal adjustments, recent form weighting.
-- **Your hook:** Applied econ background, forecasting experience
 
 ### 5. **Ensemble Methods (Random Forest, XGBoost, Gradient Boosting)**
 Combining multiple models for better predictions. Used for: player projection models that blend multiple data sources.
-- **Your hook:** ML background from Guidehouse AI/ML work
 
 ### 6. **Neural Networks / Deep Learning**
 Complex pattern recognition. Used for: advanced player projections, image recognition (injury assessment from video), NLP on news/social.
-- **Your hook:** "Led AI Agent development at Flipside for autonomous research"
 
 ### 7. **Survival Analysis / Duration Models**
 Time-until-event modeling. Used for: injury return timelines, player career arcs, customer lifetime value.
@@ -113,12 +105,10 @@ State transition probabilities. Used for: game flow simulation, possession-based
 EV = (Probability of Win × Payout) - (Probability of Loss × Stake)
 ```
 Fundamental to all betting pricing. Users should have negative EV; house has positive EV.
-- **Your hook:** "Core to tokenomics design - user incentives vs. protocol sustainability"
 
 ### 10. **Kelly Criterion**
 Optimal bet sizing formula: `f = (bp - q) / b` where b=odds, p=win prob, q=loss prob
 Used for: bankroll management, exposure limits, optimal pricing margins.
-- **Your hook:** "Applied to DeFi liquidity provision and portfolio allocation"
 
 ### 11. **Vig/Juice/Hold Optimization**
 The house edge built into pricing. Balance between:
@@ -128,11 +118,9 @@ Used for: payout multiplier calibration.
 
 ### 12. **Market-Making Models (Bid-Ask Spread)**
 Maintaining balanced book by adjusting prices based on flow. Used for: dynamic line movement.
-- **Your hook:** "AMM mechanics in DeFi are essentially automated market-making"
 
 ### 13. **No-Arbitrage Pricing**
 Ensuring no combination of picks guarantees profit. Used for: correlated pick validation, parlay pricing consistency.
-- **Your hook:** "Prevented arbitrage in DeFi protocol design"
 
 ### 14. **Implied Probability Conversion**
 Converting multipliers/odds to probabilities:
@@ -144,7 +132,6 @@ But true prob might be 28% (5.3% house edge)
 
 ### 15. **Sharp vs. Square Money Detection**
 Identifying sophisticated bettors vs. casual users. Used for: line movement triggers, risk flags.
-- **Your hook:** "Sybil detection and whale behavior analysis in crypto"
 
 ---
 
@@ -153,11 +140,9 @@ Identifying sophisticated bettors vs. casual users. Used for: line movement trig
 ### 16. **Correlation Matrix Analysis**
 Measuring how picks move together (QB + his WR, teammates, same-game picks).
 Used for: exposure limits on correlated parlays.
-- **Your hook:** "Portfolio correlation analysis for DeFi risk management"
 
 ### 17. **Value at Risk (VaR) / Conditional VaR**
 Maximum expected loss at confidence level. Used for: daily/weekly exposure limits, worst-case scenario planning.
-- **Your hook:** "Risk modeling for blockchain treasury management"
 
 ### 18. **Concentration Risk Models**
 Too much exposure to single event/player/outcome. Used for: position limits, hedging requirements.
@@ -224,11 +209,9 @@ How demand changes with price. Used for: finding optimal hold rate that maximize
 
 ### 34. **A/B Testing Frameworks**
 Causal inference for pricing experiments. Used for: testing new payout structures, hold rates, features.
-- **Your hook:** "Led experimentation frameworks for blockchain growth initiatives"
 
 ### 35. **Multi-Armed Bandit Algorithms**
 Exploration vs. exploitation for pricing. Used for: learning optimal pricing in new markets/sports.
-- **Your hook:** "Applied to AI agent decision-making at Flipside"
 
 ---
 
@@ -239,7 +222,6 @@ Maximize profit subject to constraints (liquidity, exposure limits). Used for: o
 
 ### 37. **Reinforcement Learning for Pricing**
 AI learns optimal pricing policy through trial and error. Used for: adaptive pricing systems.
-- **Your hook:** "AI agent development experience"
 
 ### 38. **Convex Optimization**
 Finding global optima in convex problems. Used for: portfolio construction, risk minimization.
@@ -253,7 +235,6 @@ Specific to portfolio optimization (Markowitz). Used for: balancing risk-return 
 
 ### 40. **Panel Data Models (Fixed/Random Effects)**
 Player-level repeated observations over time. Used for: controlling for individual heterogeneity in projections.
-- **Your hook:** "Applied econ master's, panel data experience"
 
 ### 41. **Instrumental Variables (IV) / Causal Inference**
 Identifying causal effects when experiments impossible. Used for: measuring true pricing impact vs. confounds.
@@ -281,8 +262,7 @@ Stacking, blending, averaging multiple models. Used for: combining expert models
 Proper validation for temporal data. Used for: avoiding look-ahead bias in backtesting.
 
 ### 48. **Hyperparameter Tuning (Bayesian Optimization)**
-Systematically finding best model parameters. 
-- **Your hook:** Bayesian methods background
+Systematically finding best model parameters.
 
 ### 49. **Model Calibration (Platt Scaling, Isotonic Regression)**
 Ensuring predicted probabilities match observed frequencies. Critical for pricing accuracy.
@@ -352,60 +332,16 @@ Did your opening line beat the closing line? Used for: measuring pricing quality
 ## TOOLS & INFRASTRUCTURE
 
 ### 66. **Real-Time Data Pipelines**
-Streaming data for live pricing adjustments. 
-- **Your hook:** "Built real-time blockchain data pipelines at Flipside"
+Streaming data for live pricing adjustments.
 
 ### 67. **Model Deployment & MLOps**
 Getting models into production, monitoring, retraining.
-- **Your hook:** "Deployed AI agents and ML models in production"
 
 ### 68. **Simulation Engines**
 Fast Monte Carlo for scenario testing.
 
 ### 69. **Dashboarding & Monitoring (Looker, Tableau, Streamlit)**
 Real-time pricing health monitoring.
-- **Your hook:** "Built Shiny and Svelte dashboards"
 
 ### 70. **Version Control for Models (MLflow, DVC)**
 Tracking model iterations and performance.
-
----
-
-## HOW TO PREPARE FOR INTERVIEW
-
-### Technical Panel - Focus On:
-1. **Bayesian updating** - "How would you adjust a player projection when injury news breaks?"
-2. **Monte Carlo simulation** - "How would you stress test a new payout structure?"
-3. **Correlation/risk** - "How would you handle correlated picks?"
-4. **A/B testing** - "How would you test a new hold rate?"
-5. **Model evaluation** - "How do you measure if projections are well-calibrated?"
-
-### Behavioral Panel - Focus On:
-1. **Team leadership** - Your Flipside analyst team management
-2. **Cross-functional work** - Marketing/Product/Sales collaboration
-3. **Scaling** - Taking projects from prototype to production
-4. **Stakeholder communication** - Explaining technical decisions to C-suite
-5. **Product thinking** - Your founder experience, feature development
-
-### Cross-Functional Panel - Focus On:
-1. **Product sense** - "How would you evaluate a new contest format?"
-2. **Business acumen** - Unit economics, LTV, growth metrics
-3. **Communication** - Translate technical pricing to product/marketing
-4. **Trade-offs** - Balancing competitiveness vs. profitability
-
----
-
-## YOUR STRATEGIC ADVANTAGES
-
-✅ **Bayesian econometrics** - JHU Applied Econ  
-✅ **Simulation modeling** - DeFi protocol design  
-✅ **Risk management** - Tokenomics = incentive design  
-✅ **Team leadership** - Led 5-8 analyst teams  
-✅ **Product development** - Founder experience  
-✅ **AI/ML deployment** - Production ML systems  
-✅ **Real-time systems** - Blockchain data pipelines  
-✅ **Cross-functional** - Worked with C-suite clients  
-
-Frame everything through: "At Flipside, I did X which is analogous to Y in sports pricing"
-
-Need me to deep-dive any specific models or create mock interview scenarios?
